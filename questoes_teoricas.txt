@@ -1,0 +1,18 @@
+Qual é a principal vantagem do React?
+b) Renderização do lado do servidor (SSR)
+
+
+Qual é a diferença fundamental entre o React e o React Native?
+a) React é usado para desenvolvimento web, enquanto o React Native é usado para desenvolvimento
+mobile.
+
+O que é o Next.js e qual é uma de suas principais vantagens?
+c) Next.js é um framework que permite renderização do lado do servidor e construção de aplicações SSR
+de forma fácil.
+
+Qual é o principal objetivo do CI/CD (Integração Contínua e Entrega Contínua)?
+b) Automatizar o processo de teste e implantação de código para garantir integração suave e entregas
+frequentes.
+
+O que é o Styled Components?
+a) Uma biblioteca para criação de componentes de interface em React.

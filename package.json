@@ -1,25 +1,38 @@
 {
-  "name": "react-test-app",
+  "name": "react-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest \"src/**/*.test.ts\""
   },
   "dependencies": {
+    "@babel/core": "^7.22.11",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "babel-jest": "^29.6.4",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "postcss": "8.4.28",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "styled-components": "^6.0.7",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.10",
+    "@testing-library/jest-dom": "^6.1.2",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.4",
+    "jest-environment-jsdom": "^29.6.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.1.1"
   }
 }
